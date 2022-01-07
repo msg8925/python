@@ -26,7 +26,16 @@
 #who_are_you("David", 32)
 
 #lists
-friends = ["Joey", "Monica", "Chandler", "Ross", "Rachel", "Phoebe"]
+#friends = ["Joey", "Monica", "Chandler", "Ross", "Rachel", "Phoebe"]
 
-print(friends[0])
-print(friends[0:2])
+#print(friends[0])
+#print(friends[0:2])
+
+#tuple
+food = ["pizza", "burger", "fries", "kebab", "shawarma"]
+print(food[1])
+
+
+
+
+
