@@ -32,15 +32,18 @@
 #print(friends[0:2])
 
 #for loop
-food = ["pizza", "burger", "fries", "kebab", "shawarma"]
+#food = ["pizza", "burger", "fries", "kebab", "shawarma"]
 
 #for x in food:
 #    print(x)
 
-i = 0
-while i < 5:
-    print(food[i])
-    i += 1
+#i = 0
+#while i < 5:
+#    print(food[i])
+#    i += 1
 
+#trick to fill buffer
+buffer = "A" * 10
 
+print(buffer)
 
