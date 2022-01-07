@@ -31,9 +31,11 @@
 #print(friends[0])
 #print(friends[0:2])
 
-#tuple
+#for loop
 food = ["pizza", "burger", "fries", "kebab", "shawarma"]
-print(food[1])
+
+for x in food:
+    print(x)
 
 
 
