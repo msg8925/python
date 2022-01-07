@@ -34,10 +34,13 @@
 #for loop
 food = ["pizza", "burger", "fries", "kebab", "shawarma"]
 
-for x in food:
-    print(x)
+#for x in food:
+#    print(x)
 
-
+i = 0
+while i < 5:
+    print(food[i])
+    i += 1
 
 
 
