@@ -43,7 +43,44 @@
 #    i += 1
 
 #trick to fill buffer
-buffer = "A" * 10
+#buffer = "A" * 10
 
-print(buffer)
+#print(buffer)
 
+student = {'name': 'John', 'age': 32, 'courses': ['Math', 'CompSci']}
+
+print(student)
+
+print("\n")
+
+print(student['name'])
+
+print("\n")
+
+print(student.get('courses'))
+
+print("\n")
+
+print(student.get('phone'))
+
+print(student.get('height', 'Not Found'))
+
+student['phone'] = '555-5555'
+
+print(student)
+
+del student['age']
+
+print(student)
+
+print(len(student))
+
+print(student.keys())
+
+print(student.values())
+
+print(student.items())
+
+for key, value in student.items():
+    print(key, value)
+    
